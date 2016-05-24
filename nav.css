@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav {
+	background-color:#0073e6;
+	position: relative; margin:0;
+	/*display:block;*/
+	}
+#nav a{
+	/*background-color: transparent;*/
+	}
+#nav a:hover{
+	color:white;
+	background-color:blue;}
+/*	
+#nav a: hover {
+	color: red;
+	background-color: red;
+	}*/
+#nav ul {
+	/*padding-top: 10 em;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0;*/
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif}
+	
+#nav li {
+	list-style: none; display:inline; margin:1em;
+	
+	}
+	
+#nav ul li a {
+	color:black; text-decoration:none;}
+	
+#nav ul li a: active {
+	color:blue; text-decoration:none; }
+.middleArea {
+	background-color:rgba(253,253,253,0.7);
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	/*overflow:hidden;*/}
+	
+.wholePage {
+	background-color:#9999ff}/*#b3b3ff#4da6ff#00cccc*/
+	
+#mainContent {
+	/*margin-left:10px;*/
+	margin-right:10px;
+	width: 578px; /*Set the with of a div*/
+	border:1px white; /*border frame*/
+	float:left;
+	}
+	
+#rightArea {
+	width: 400px;
+	position:relative;
+	float:right;
+	/*float: right;*/
+	}
