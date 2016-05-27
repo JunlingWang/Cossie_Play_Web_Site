@@ -36,7 +36,7 @@
 #nav ul li a: active {
 	color:blue; text-decoration:none; }
 .middleArea {
-	background-color:rgba(253,253,253,0.7);
+	background-color:rgba(253,253,253,0);
 	width:1000px;
 	margin-left:auto;
 	margin-right:auto;
@@ -51,11 +51,44 @@
 	width: 578px; /*Set the with of a div*/
 	border:1px white; /*border frame*/
 	float:left;
+	height:1000px;
 	}
 	
 #rightArea {
 	width: 400px;
+	height:1000px;
 	position:relative;
 	float:right;
+
 	/*float: right;*/
 	}
+	
+#partyHomepage a:link {
+	text-decoration: none; 
+	color:#000000; 
+	}
+		
+#partyHomepage a:visited {
+    color: #000000;
+}
+
+#partyHomepage a:hover {
+	color:blue;
+	text-decoration: underline;}
+	
+#partyBackground {
+	background-color:#000000}
+	
+#partyBG {
+	background-color:#000000
+	color:#42E195
+	}
+	
+#guideLine {
+	color:#ffffff;
+}
+	
+.whoPicture {
+	float:left}
+.who {
+	height:105px}
